@@ -17,6 +17,7 @@ public class Driver {
 		//Asks for user input
 		//System.out.println("Enter word to be guessed: ");
 		//Gets user input
+		//String mysteryWord = myScanner.nextLine();
 		String mysteryWord = JOptionPane.showInputDialog("Enter word to be guessed: ");
 		List<String> correctlyGuessedLetters = new ArrayList<String>();
 		String originalWord = mysteryWord;
