@@ -10,7 +10,7 @@ public class Driver {
 	public static void main(String[] args) {
 		//Use Scanner to read console to get user input via console
 		//needs an input stream, in this case we use the System.in, which is the console
-		Scanner myScanner = new Scanner(System.in);
+		//Scanner myScanner = new Scanner(System.in);
 		//Every wrong guess adds body part to noose and decreases this number
 		int bodyParts = 6;
 		
@@ -60,7 +60,7 @@ public class Driver {
 			//System.out.println();
 			if(mysteryWord.length() == 0) {
 				//System.out.println("Congratulations you've guessed all the letters in the word");
-				JOptionPane.showMessageDialog(null, "How the guessing is going: \n" + wordOuput + "\nCongratulations you've guessed all the letters in the word");
+				JOptionPane.showMessageDialog(null, "How the guessing is going: \n" + wordOuput + "\nCongratulations! You've guessed all the letters in the word");
 				break;
 			}
 			
