@@ -33,7 +33,7 @@ public class Driver {
 			if(mysteryWord.contains(guessedLetter)) {
 				//true run this
 				//System.out.println("the word contains " + guessedLetter);
-				JOptionPane.showMessageDialog(null, "the word contains " + guessedLetter);
+				JOptionPane.showMessageDialog(null, "the word does contain " + guessedLetter);
 				//Remove correctly guessed letters
 				mysteryWord = mysteryWord.replaceAll(guessedLetter,  "");
 				correctlyGuessedLetters.add(guessedLetter);
